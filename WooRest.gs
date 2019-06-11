@@ -47,7 +47,7 @@ var WooRest = (function() {
 						var section = links[i].split(";");
 						if(section.length == 2){
 							if(section[1].trim() == 'rel="next"'){
-                              var nextLink = section[0].trim();
+                              					var nextLink = section[0].trim();
 								url = nextLink.substring(1, nextLink.length-1);
 							}
 						}
